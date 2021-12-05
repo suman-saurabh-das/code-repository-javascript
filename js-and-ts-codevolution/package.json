@@ -1,0 +1,15 @@
+{
+  "name": "js-and-ts-codevolution",
+  "version": "1.0.0",
+  "description": "JS (ES6) & TS tutorial by codevolution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suman Saurabh Das",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

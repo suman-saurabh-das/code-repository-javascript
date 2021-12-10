@@ -46,9 +46,9 @@ console.log();
 console.log("Using rest operator -");
 const myColor2 = "Yellow";
 let displayColors3 = function (myColor2, ...colors) {
+  console.log("Parameter:", myColor2);
   console.log("Rest Parameters:", colors);
   console.log("Arguments length:", arguments.length);
-  console.log("Parameter:", myColor2);
   for (let i in colors) {
     process.stdout.write(colors[i] + " ");
   }

@@ -1,6 +1,7 @@
 {
   "name": "js-and-ts-codevolution",
   "version": "1.0.0",
+  "type": "module",
   "description": "JS (ES6) & TS tutorial by codevolution",
   "main": "index.js",
   "scripts": {

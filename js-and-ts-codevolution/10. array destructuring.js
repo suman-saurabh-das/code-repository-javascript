@@ -31,5 +31,5 @@ console.log(otherFruits);
 // • We can also destructure using default values.
 console.log("\nDestructuring with default values");
 let employee = ["Suman"];
-let [eName = "user", eId = "1355088"] = employee;
+let [eName = "user", eId = "13141190"] = employee;
 console.log(eName + " " + eId);

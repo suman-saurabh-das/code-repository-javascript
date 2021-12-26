@@ -9,7 +9,7 @@ let str = "Hello World";
 let arr = [1, 2, 3, 4, 5];
 let num = 100;
 let employee = {
-  id: 1355088,
+  id: "13141190",
   empName: "Saurabh",
 };
 console.log("For string " + typeof str[Symbol.iterator]); // output: function

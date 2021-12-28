@@ -26,7 +26,7 @@
  *
  * • Install TypeScript compiler: npm install typescript
  * • Install TypeScript file runner: npm install tsx
- * • Run using: npx tsx npx tsx 01.\ Intro\ to\ JavaScript\ ES6\ and\ TypeScript.ts
+ * • Run using: npx tsx 01.\ Intro\ to\ JavaScript\ ES6\ and\ TypeScript.ts
  */
 
 console.log("Introduction to JS (ES6) & TS");

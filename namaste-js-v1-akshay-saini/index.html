@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Namaste JS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#f0db4f] flex flex-col gap-12 m-8 max-w-1/2">
+    <h1 class="title font-semibold text-6xl">Namaste JS</h1>
+    <img
+      class="absolute bottom-0 right-0 h-56 w-56"
+      src="./image.png"
+      alt="JS"
+    />
+    <div class="flex flex-col gap-8">
+      <!-- CALLBACK FUNCTIONS -->
+      <div class="flex flex-col gap-4">
+        <h2 class="font-semibold text-3xl">Event listener with Closure</h2>
+        <div class="flex gap-4 items-center">
+          <button
+            id="dec-count-btn"
+            class="bg-neutral-800 hover:bg-neutral-900 cursor-pointer duration-300 font-xl px-4 py-2 rounded-sm text-[#f0db4f] transition-all w-fit"
+          >
+            Counter--
+          </button>
+          <button
+            id="inc-count-btn"
+            class="bg-neutral-800 hover:bg-neutral-900 cursor-pointer duration-300 font-xl px-4 py-2 rounded-sm text-[#f0db4f] transition-all w-fit"
+          >
+            Counter++
+          </button>
+          <span class="font-semibold text-xl"
+            >Count Value : <span id="count-value">0</span></span
+          >
+        </div>
+      </div>
+    </div>
+    <script src="./11. Callback functions.js"></script>
+  </body>
+</html>

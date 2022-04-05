@@ -36,7 +36,26 @@
           >
         </div>
       </div>
+      <hr class="border border-dashed" />
+      <!-- EVENT LOOP -->
+      <div class="flex flex-col gap-4">
+        <h2 class="font-semibold text-3xl">Event listener callback function</h2>
+        <p>
+          Event listener callbacks (like from a click event) are registered via
+          the browser’s Web APIs. When the event occurs, the callback is placed
+          into the macrotask (callback) queue. The event loop continuously
+          checks whether the call stack is empty, and when it is, it moves the
+          next task from the queue onto the call stack for execution.
+        </p>
+        <button
+          id="callback-btn"
+          class="bg-neutral-800 hover:bg-neutral-900 cursor-pointer duration-300 font-xl px-4 py-2 rounded-sm text-[#f0db4f] transition-all w-fit"
+        >
+          Callback button
+        </button>
+      </div>
     </div>
     <script src="./11. Callback functions.js"></script>
+    <script src="./12. Event loop.js"></script>
   </body>
 </html>
